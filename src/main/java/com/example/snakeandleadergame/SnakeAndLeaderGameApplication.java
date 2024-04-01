@@ -1,6 +1,5 @@
 package com.example.snakeandleadergame;
 
-import com.example.snakeandleadergame.entity.Configuration;
 import com.example.snakeandleadergame.enumurator.MovementStrategy;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.SpringApplication;

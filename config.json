@@ -3,6 +3,8 @@
   "board_size": 100,
   "number_of_snakes": 5,
   "number_of_ladders": 5,
+  "number_of_crocodile": 3,
+  "number_of_mine": 2,
   "number_of_dice": 1,
   "movement_strategy": "SUM",
   "number_of_ladders_pos": [
@@ -48,6 +50,34 @@
     {
       "start": 4,
       "end": 19
+    }
+  ],
+  "number_of_crocodile_pos":  [
+    {
+      "start": 2,
+      "end": 10
+    },
+    {
+      "start": 15,
+      "end": 70
+    },
+    {
+      "start": 22,
+      "end": 81
+    }
+  ],
+  "number_of_mine_pos":  [
+    {
+      "start": 2,
+      "end": 13
+    },
+    {
+      "start": 15,
+      "end": 88
+    },
+    {
+      "start": 21,
+      "end": 47
     }
   ]
 }

@@ -4,11 +4,11 @@ package com.example.snakeandleadergame.entity;
 import lombok.Data;
 
 @Data
-public class Ladder implements Huddle{
+public class Mine implements Huddle{
   int no;
   Point point;
 
-  public Ladder(int no, Point point) {
+  public Mine(int no, Point point) {
     this.no = no;
     this.point = point;
 
